@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second JS Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form" method="GET" action="">
+            <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" id="contact-name">
+                <span id="name-error"></span>
+            </div>
+            <div class="input-group">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="09" id="contact-phnumber">
+                <span id="phone-error"></span>
+            </div>
+            <div class="input-group">
+                <label>Email Id</label>
+                <input type="text" placeholder="Enter email" id="contact-email">
+                <span id="email-error"></span>
+            </div>
+            <div class="input-group">
+                <label>Your Message</label>
+                <textarea row="5" placeholder="Enter Your Message" id="contact-msg"></textarea>
+                <span id="message-error"></span>
+            </div>
+            <button type="submit">Submit</button>
+            <span id="submit-error"></span>
+        </form>
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>
